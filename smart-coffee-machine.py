@@ -1,10 +1,10 @@
-coffee_resevior = 7
 coffee_types = ["Americano", "Latte", "Cold Brew", "Red Eye", "Iced Coffee", "Mocha", "Espresso"]
+coffee_resevior = len(coffee_types)
 
 
 while coffee_resevior > 0:
-    selection = input("Which drink would you like? \n")
     print(coffee_types)
+    selection = input("Which drink would you like? ")
     if selection in coffee_types:
         coffee_types.remove(selection)
         print(f"You've selected {selection}. \n" )
