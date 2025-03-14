@@ -14,3 +14,4 @@ while current_floor > 1:
     if current_floor == 1:
         print(f"We have reached the ground level.")
 
+        
